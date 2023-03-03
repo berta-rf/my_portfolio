@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Contact from './src/components/Contact';
-import Header from './src/components/Header';
-import Home from './src/components/Home';
-import ProjectGallery from './src/components/ProjectGallery';
+import Contact from './components/Contact';
+import Header from './components/Header';
+import Home from './components/Home';
+import ProjectGallery from './components/ProjectGallery';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
