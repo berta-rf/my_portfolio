@@ -2,7 +2,7 @@ import React from "react";
 import Project from './Project';
 
 
-const ProjectGallery = () => {
+const ProjectGallery = (props) => {
 
 
 }
