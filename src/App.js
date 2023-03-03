@@ -6,22 +6,22 @@ import Header from './components/Header';
 import Home from './components/Home';
 import ProjectGallery from './components/ProjectGallery';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
 
-function App() {
+const App = () => {
     
     return(
 
         <Router>
             <div>
-                <h1>Berta's PORTFOLIO</h1>
                 <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="projects" element={<ProjectGallery />} />
-                <Route path="contact" element={<Contact />} />
-            </Routes>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="projects" element={<ProjectGallery />} />
+                    <Route path="contact" element={<Contact />} />
+                </Routes>
             </div>
         </Router>  
     );
