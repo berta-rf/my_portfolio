@@ -1,1 +1,68 @@
-{}
+[
+    {
+
+        "key": 1,
+        "title": "Weather Forecast Dashboard",
+        "image": "https://raw.githubusercontent.com/berta-rf/forecast-dashboard/main/assets/images/screencapture-forecast-dashboard.png",
+        "githubLink": "https://github.com/berta-rf/forecast-dashboard",
+        "deployedURL": "https://berta-rf.github.io/forecast-dashboard/"
+
+    },
+    {
+
+        "key": 2,
+        "title": "Broke but Cultured",
+        "image": "./images/brokeButCultured.gif",
+        "githubLink": "https://github.com/berta-rf/broke-but-cultured",
+        "deployedURL": "https://chinapicke.github.io/-broke-but-cultured/"
+    
+    },
+    {
+
+        "key": 3,
+        "title": "News Homepage",
+        "image": "https://raw.githubusercontent.com/berta-rf/news-homepage-main/main/assets/images/screencapture-news-homepage-main.png",
+        "githubLink": "https://github.com/berta-rf/news-homepage-main",
+        "deployedURL": "https://berta-rf.github.io/news-homepage-main/"
+    
+    },
+    {
+
+        "key": 4,
+        "title": "Code Quiz",
+        "image": "https://raw.githubusercontent.com/berta-rf/timed-Code-Quiz/main/assets/images/applicationScreenshots.gif",
+        "githubLink": "https://github.com/berta-rf/timed-Code-Quiz",
+        "deployedURL": "https://berta-rf.github.io/timed-Code-Quiz/"
+    
+    },
+    {
+
+        "key": 5,
+        "title": "Order Summary Component",
+        "image": "https://raw.githubusercontent.com/berta-rf/order-summary-component-main/main/images/screenshot.jpg.png",
+        "githubLink": "https://github.com/berta-rf/order-summary-component-main",
+        "deployedURL": "https://berta-rf.github.io/order-summary-component-main/"
+    
+    },
+    {
+
+        "key": 6,
+        "title": "Work Day Planner",
+        "image": "./images/dailyPlanner.png",
+        "githubLink": "https://github.com/berta-rf/daily-planner-app",
+        "deployedURL": "https://berta-rf.github.io/daily-planner-app/"
+    
+    },
+    {
+
+        "key": 7,
+        "title": "Team Profile Generator (CLI App)",
+        "image": "https://raw.githubusercontent.com/berta-rf/team-profile-generator/main/assets/images/webScreenshot.png",
+        "githubLink": "https://github.com/berta-rf/team-profile-generator",
+        "deployedURL": "https://github.com/berta-rf/team-profile-generator"
+
+    
+    }
+
+
+]
