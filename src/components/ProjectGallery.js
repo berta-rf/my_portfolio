@@ -4,6 +4,7 @@
 
 const ProjectGallery = (props) => {
 
+    // {projects.map(f => <FriendCard name={f.name} occupation={f.occupation} location={f.location} image={f.image} />)}
 
 }
 

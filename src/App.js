@@ -6,8 +6,8 @@ import Header from './components/Header';
 import Home from './components/Home';
 import ProjectGallery from './components/ProjectGallery';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import ThemeProvider from 'react-bootstrap/ThemeProvider'
+import ThemeProvider from 'react-bootstrap/ThemeProvider';
+
 import './App.scss';
 
 
@@ -19,15 +19,16 @@ const App = () => {
         <ThemeProvider
         breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
         minBreakpoint="xxs"
-        >
-            <div>
-                <Header />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="projects" element={<ProjectGallery />} />
-                    <Route path="contact" element={<Contact />} />
-                </Routes>
-            </div>
+    >
+        <div>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="projects" element={<ProjectGallery />} />
+                <Route path="contact" element={<Contact />} />
+            </Routes>
+        </div>
+
         </ThemeProvider>
         </Router>  
     );

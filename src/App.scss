@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 :root {
     --shuttleGray: #636a7a;
     --edward: #a9b9ac;
@@ -9,28 +11,28 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--sandyBrown);
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #636a7a;
-    font-size: 9rem;
+    font-size: 5em;
 }
 
-a {
+.nav-link {
     color: #636a7a;
-    font-size: 3rem;
+    font-size: 1.5em;
     text-decoration: none;
     padding-right: 30px;
 }
 
-a:hover {
+.nav-link:hover {
     color: var(--canary);
 }
 
-.btn {
-    background-color: var(--canary);
+.btn, .badge {
+    background-color: var(--canary)!important;
     color: var(--shuttleGray);
     border: none;
     padding: 15px;
@@ -46,4 +48,9 @@ a:hover {
     background-color: var(--edward-transparent);
     padding: 3rem;
     border-radius: 30px;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.788);
+    border: 2px solid var(--canary);
 }
