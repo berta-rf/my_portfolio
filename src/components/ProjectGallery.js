@@ -1,10 +1,23 @@
-// import React from "react";
-// import Project from './Project';
+import React from "react";
+import Project from './Project';
+import projects from '../assets/projects.json'
+import { Container } from "react-bootstrap";
 
 
-const ProjectGallery = (props) => {
+const ProjectGallery = () => {
 
-    // {projects.map(f => <FriendCard name={f.name} occupation={f.occupation} location={f.location} image={f.image} />)}
+   return (<>
+    
+        <Container className="d-flex flex-wrap">
+            {projects.map( project => <Project key={project.key} 
+                title={project.title} 
+                image={project.image} 
+                githubLink={project.githubLink} 
+                deployedURL={project.deployedURL} 
+            />)}
+        </Container>
+
+    </>);   
 
 }
 
