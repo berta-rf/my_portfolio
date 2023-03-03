@@ -1,6 +1,7 @@
 :root {
     --shuttleGray: #636a7a;
     --edward: #a9b9ac;
+    --edward-transparent: #a9b9ac82;
     --canary: #dffe6d;
     --sandyBrown: #f5936f;
 }
@@ -8,14 +9,41 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--sandyBrown);
+    font-size: 2rem;
 }
 
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #636a7a;
-    font-size: 4rem;
+    font-size: 9rem;
 }
 
 a {
     color: #636a7a;
+    font-size: 3rem;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+a:hover {
+    color: var(--canary);
+}
+
+.btn {
+    background-color: var(--canary);
+    color: var(--shuttleGray);
+    border: none;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #a9b9ac;
+
+}
+
+.contactPage {
+    background-color: var(--edward-transparent);
+    padding: 3rem;
+    border-radius: 30px;
 }

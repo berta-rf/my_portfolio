@@ -7,6 +7,7 @@ import Home from './components/Home';
 import ProjectGallery from './components/ProjectGallery';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import './App.scss';
 
 
@@ -15,6 +16,10 @@ const App = () => {
     return(
 
         <Router>
+        <ThemeProvider
+        breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+        minBreakpoint="xxs"
+        >
             <div>
                 <Header />
                 <Routes>
@@ -23,6 +28,7 @@ const App = () => {
                     <Route path="contact" element={<Contact />} />
                 </Routes>
             </div>
+        </ThemeProvider>
         </Router>  
     );
         

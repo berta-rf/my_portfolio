@@ -8,7 +8,7 @@ const Home = () => {
     return(<>
 
         <div className="statement d-flex p-5">
-            <img src={ portrait } width="150" alt="" />
+            <img src={ portrait } width="300" alt="" />
             <p>Hi there, my name is Berta and I'm a Frontend Developer</p>
         
         </div>
