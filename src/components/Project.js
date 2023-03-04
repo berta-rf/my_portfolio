@@ -18,7 +18,7 @@ export function Project(props) {
                 onMouseEnter={() => setCurrentProjectIndex(projectIndex)}
                 onMouseLeave={() => setCurrentProjectIndex(0)}
             >
-                <ListGroupItem>
+                <ListGroupItem className="d-flex my-4">
                     <a href={deployedURL}>
                         <h2>{title}</h2>
                     </a>
@@ -44,7 +44,7 @@ export function ProjectImg(props) {
                     </clipPath>
                 </svg>
                 <div id="images" >
-                    <img src={image} alt='' width="95%"/>
+                    <img src={image} alt='' width="90%"/>
                 </div>
             </a>
             

@@ -20,7 +20,7 @@ h1 {
     font-size: 5em;
 }
 
-.nav-link {
+.nav-link, a {
     color: #636a7a;
     font-size: 1.5em;
     text-decoration: none;
@@ -28,31 +28,44 @@ h1 {
 }
 
 .nav-link:hover {
-    color: var(--canary);
+  color: var(--canary);
 }
 
 .btn, .badge {
-    background-color: var(--canary)!important;
-    color: var(--shuttleGray);
-    border: none;
-    padding: 15px;
-    font-size: 1.5rem;
+  background-color: var(--canary)!important;
+  color: var(--shuttleGray);
+  border: none;
+  padding: 15px;
+  font-size: 1.5rem;
 }
 
 .btn:hover {
-    background-color: #a9b9ac;
-
+  background-color: #a9b9ac;
 }
 
 .contactPage {
-    background-color: var(--edward-transparent);
-    padding: 3rem;
-    border-radius: 30px;
+  background-color: var(--edward-transparent);
+  padding: 3rem;
+  border-radius: 30px;
 }
 
 .form-control {
-    background-color: rgba(255, 255, 255, 0.788);
-    border: 2px solid var(--canary);
+  background-color: rgba(255, 255, 255, 0.788);
+  border: 2px solid var(--canary);
+}
+
+.ul {
+  border: none;
+  position: absolute;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+.list-group-item :hover {
+  color: #dffe6d;
 }
 
 // svg for project images
@@ -71,17 +84,15 @@ h1 {
   }
   
   #blob>path {
-    animation: blob linear infinite 15s;
+    animation: blob linear infinite 10s;
   }
   
   #images {
-    width: 60vmax;
-    height: 60vmax;
-    margin: auto;
+    height: 60vh;
+    width: 50vw;
     clip-path: url(#blob);
+    margin-top: 4%;
+    margin-left: 1%;
   }
 
-  .ul {
-    background-color: transparent;
-  }
   
