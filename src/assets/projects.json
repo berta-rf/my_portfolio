@@ -12,7 +12,7 @@
 
         "key": 2,
         "title": "Broke but Cultured",
-        "image": "./images/brokeButCultured.gif",
+        "image": "https://github.com/chinapicke/-broke-but-cultured/raw/main/assets/images/workingApp.gif",
         "githubLink": "https://github.com/berta-rf/broke-but-cultured",
         "deployedURL": "https://chinapicke.github.io/-broke-but-cultured/"
     
@@ -48,7 +48,7 @@
 
         "key": 6,
         "title": "Work Day Planner",
-        "image": "./images/dailyPlanner.png",
+        "image": "https://raw.githubusercontent.com/berta-rf/daily-planner-app/main/assets/images/screencapture.png",
         "githubLink": "https://github.com/berta-rf/daily-planner-app",
         "deployedURL": "https://berta-rf.github.io/daily-planner-app/"
     

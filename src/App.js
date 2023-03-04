@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import Home from './components/Home';
-import ProjectGallery from './components/ProjectGallery';
+import { ProjectGallery } from './components/ProjectGallery';
 
 import ThemeProvider from 'react-bootstrap/ThemeProvider';
 
