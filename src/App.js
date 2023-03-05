@@ -14,23 +14,21 @@ import './App.scss';
 const App = () => {
     
     return(
-
-        <Router>
-        <ThemeProvider
-        breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
-        minBreakpoint="xxs"
-    >
-        <div>
-            <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="projects" element={<ProjectGallery />} />
-                <Route path="contact" element={<Contact />} />
-            </Routes>
+        <div className='App'>
+            <Router>
+                <ThemeProvider
+                breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+                minBreakpoint="xxs"
+                >
+                    <Header />
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="projects" element={<ProjectGallery />} />
+                        <Route path="contact" element={<Contact />} />
+                    </Routes>
+                </ThemeProvider>
+            </Router>
         </div>
-
-        </ThemeProvider>
-        </Router>  
     );
         
 }

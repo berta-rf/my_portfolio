@@ -35,21 +35,16 @@ export function Project(props) {
 export function ProjectImg(props) {
     const { deployedURL, image } = props;
 
-    return (
+       return (
         <>
-            <a href={deployedURL}>
-                <svg>
-                    <clipPath id="blob" clipPathUnits="objectBoundingBox">
-                        <path d="M 0.187 0.094 C 0.33 -0.06 0.6133 0.09 0.606 0.201 S 0.83 0.39 0.508 0.542 S -0.07 0.49 0.029 0.261 Z" />
-                    </clipPath>
-                </svg>
-                <div id="images" >
-                    <img src={image} alt='' width="90%"/>
-                </div>
-            </a>
+            <div className="wrap">
+                <a href={deployedURL}>
+                    <img id="images" src={image} alt='' width="95%"/>
+                </a>
+            </div>
             
         </>
     );
-        
+
 }
         
