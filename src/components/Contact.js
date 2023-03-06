@@ -24,9 +24,9 @@ const Contact = () => {
         </Col>
 
         <Col xs={12} sm={12} md={6}>
-            <Form>
+            <Form name="contact" method="POST" data-netlify="true">
                 <h2>Contact Me</h2>
-                <Form.Group className="my-5" controlId="form.ControlInput1">
+                <Form.Group  className="my-5" controlId="form.ControlInput1">
                     <Form.Control type="name" placeholder="What's your name?" />
                 </Form.Group>
                 <Form.Group className="mb-5" controlId="form.ControlInput2">

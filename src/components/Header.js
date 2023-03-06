@@ -6,7 +6,7 @@ import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 const Header = () => {
 
     return(<>
-      <Container>
+      <Container fluid>
         <Row>
           <Col>
             <div>
@@ -15,7 +15,7 @@ const Header = () => {
           </Col>
 
           <Col>
-            <Navbar collapseOnSelect expand="sm">
+            <Navbar collapseOnSelect expand="lg">
               <NavbarToggle aria-controls="responsive-navbar-nav" />
               <NavbarCollapse id="responsive-navbar-nav" >
                 <Nav>
