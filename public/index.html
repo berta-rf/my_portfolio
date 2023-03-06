@@ -30,7 +30,12 @@
   </head>
   <body>
     <!-- html form for netlify to parse contact info -->
-    <form name="contact" method="POST" netlify netlify-honeypot="bot-field" hidden><h2>Contact Me</h2><div class="my-5"><input placeholder="What's your name?" type="name" id="form.ControlInput1" class="form-control"></div><div class="mb-5"><input placeholder="name@example.com" type="email" id="form.ControlInput2" class="form-control"></div><div class="mb-5"><textarea placeholder="What's on your mind? " rows="8" id="form.ControlTextarea1" class="form-control"></textarea></div><button type="submit" class="btn btn btn-primary">Submit</button></form>
+    <form name="contact" method="POST" netlify netlify-honeypot="bot-field" hidden>
+        <input placeholder="What's your name?" name="name" type="name" id="form.ControlInput1" class="form-control">
+        <input placeholder="name@example.com" name="email" type="email" id="form.ControlInput2" class="form-control">
+        <textarea placeholder="What's on your mind? " name="message" rows="8" id="form.ControlTextarea1" class="form-control"></textarea>
+      <button type="submit" class="btn btn btn-primary">Submit</button>
+    </form>
     
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
