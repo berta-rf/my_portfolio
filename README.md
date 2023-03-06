@@ -5,3 +5,5 @@ React Portfolio
 
 [Responsive Navbar using React Bootstrap](https://medium.com/swlh/responsive-navbar-using-react-bootstrap-5e0e0bd33bd6)
 
+[How to Add a Netlify Form to a React App](https://www.freecodecamp.org/news/how-to-add-a-netlify-form-to-a-react-app/)
+

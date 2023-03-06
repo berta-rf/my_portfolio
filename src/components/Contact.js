@@ -28,13 +28,13 @@ const Contact = () => {
                 <input type="hidden" name="form-name" value="contact" />
                     <h2>Contact Me</h2>
                 <Form.Group  className="my-5" controlId="form.ControlInput1">
-                    <Form.Control type="name" placeholder="What's your name?" />
+                    <Form.Control type="name" name="name" placeholder="What's your name?" required/>
                 </Form.Group>
                 <Form.Group className="mb-5" controlId="form.ControlInput2">
-                    <Form.Control type="email" placeholder="name@example.com" />
+                    <Form.Control type="email" name="email" placeholder="name@example.com" required/>
                 </Form.Group>
-                <Form.Group className="mb-5" controlId="form.ControlTextarea1">
-                    <Form.Control as="textarea" placeholder="What's on your mind? " rows={8} />
+                <Form.Group className="mb-5" controlId="form.ControlInput3">
+                    <Form.Control as="textarea" name="message" placeholder="What's on your mind? " rows={8} required/>
                 </Form.Group>
                 <Button className="btn" type="submit">Submit</Button>
             </Form>
