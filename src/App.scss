@@ -35,7 +35,7 @@ a {
 
 .nav-link {
   color: #636a7a;
-  font-size: 2em;
+  font-size: 3em;
   text-decoration: none;
   padding-right: 30px;
 }
@@ -58,10 +58,12 @@ a {
 
 .badge {
   background-color: #f5936f!important;
+  box-shadow: 2px 2px var(--edward);
+  font-size: 2em;
 }
 
 .btn:hover {
-  background-color: #a9b9ac;
+  background-color: var(--sandyBrown);
 }
 
 .contactPage {
@@ -77,7 +79,6 @@ a {
 
 .ul {
   border: none;
-  position: absolute;
 }
 
 .list-group-item {
@@ -87,10 +88,13 @@ a {
 
 .list-group-item :hover {
   color: var(--sandyBrown);
+  text-shadow: 2px 2px var(--edward);
+
 }
 
 #images {
-  clip-path: ellipse();
+  border-radius: 10%;
+  margin-top: 5%;
 }
 
 .wrap {
@@ -98,14 +102,18 @@ a {
   filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
 
-.gitBtn {
+.gitBtn, .linkBtn {
   background-color: transparent;
   color: var(--shuttleGray);
-
+  font-size: 2.5em;
 }
 
-.gitBtn:hover {
-  color: var(--sandyBrown);
+.linkBtn:hover,
+  .gitBtn:hover,
+  .gitHubWork:hover {
+  color: var(--canary);
+  text-shadow: 2px 2px var(--edward);
+
 }
 
 p {

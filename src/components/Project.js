@@ -18,13 +18,13 @@ export function Project(props) {
                 onMouseEnter={() => setCurrentProjectIndex(projectIndex)}
                 onMouseLeave={() => setCurrentProjectIndex(0)}
             >
-                <ListGroupItem className="d-flex my-4">
+                <ListGroupItem className="d-flex my-3">
                     <a href={deployedURL}>
                         <h2>{title}</h2>
                     </a>
 
-                    <a href={githubLink}>
-                        <i className="fa-brands fa-github"></i>
+                    <a href={githubLink} className="my-3">
+                        <i className="gitHubWork mx-4 fa-brands fa-github fa-2xl"></i>
                     </a>
                 </ListGroupItem>
             </div>
@@ -39,7 +39,7 @@ export function ProjectImg(props) {
         <>
             <div className="wrap">
                 <a href={deployedURL}>
-                    <img id="images" src={image} alt='' width="95%"/>
+                    <img id="images" src={image} alt='' width="100%"/>
                 </a>
             </div>
             

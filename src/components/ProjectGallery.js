@@ -14,8 +14,14 @@ export function ProjectGallery() {
    return (<>
     
     <Container className="projects">
-        <Row>
-            <Col>
+
+        <Row className="my-5">
+
+            <Col xs={12} md={6}>
+                <ProjectImg deployedURL={currentProject.deployedURL} image={currentProject.image}></ProjectImg>
+            </Col>
+
+            <Col xs={12} md={6} className="text-right">
                 <ListGroup className="ul">
                     {projects.map( (project, index) => <Project
                     key={project.key}
@@ -26,10 +32,6 @@ export function ProjectGallery() {
                     projectIndex={index}
                     />)}
                 </ListGroup>    
-            </Col>
-
-            <Col>
-                <ProjectImg deployedURL={currentProject.deployedURL} image={currentProject.image}></ProjectImg>
             </Col>
         </Row>
             

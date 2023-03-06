@@ -12,7 +12,7 @@ const Home = () => {
     return(<>
         
         <Container>
-            <Row>
+            <Row className="my-5">
                 <Col className="col-lg-4 col-xs-10">
                     <img id={portrait} src={ portrait } width="80%" alt="" />
                 </Col>
@@ -33,7 +33,8 @@ const Home = () => {
             </Row>
             <Row>
                 <Col className="col-lg-4 my-5 mx-auto">
-                    <a className="gitBtn" href="https://github.com/berta-rf"><i className="fa-brands fa-github"></i></a>
+                    <a className="gitBtn" href="https://github.com/berta-rf"><i className="fa-brands fa-github fa-2xl mx-3"></i></a>
+                    <a className="linkBtn" href="https://github.com/berta-rf"><i className="fa-brands fa-linkedin fa-2xl mx-3"></i></a>
                 </Col>
             </Row>
         </Container>

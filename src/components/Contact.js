@@ -11,7 +11,7 @@ const Contact = () => {
     return(<>
 
     <Container className="contactPage">
-      <Row>
+      <Row className="my-5">
         <Col xs={12} sm={12} md={6} >
             <Stack className="contactinfo my-3">
                 <Button className="m-3" href="mailto: bertaromanofernandez@gmail.com">Send me an email <i className="fa-solid fa-envelope"></i></Button>
