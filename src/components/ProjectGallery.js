@@ -26,6 +26,7 @@ export function ProjectGallery() {
                     {projects.map( (project, index) => <Project
                     key={project.key}
                     title={project.title}
+                    technologies={project.technologies}
                     githubLink={project.githubLink}
                     deployedURL={project.deployedURL}
                     setCurrentProjectIndex={setCurrentProjectIndex}

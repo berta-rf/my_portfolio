@@ -17,27 +17,29 @@ body {
   background-size: cover;
 }
 
-h1 {
+
+#brand {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: var(--canary);
-  font-size: 10em;
+  font-size: calc(5rem + 2.5vw);
+  text-shadow: 1px 3px var(--edward);
 }
 
 h2 {
   font-size: 2.5em;
+  font-weight: bold;
 }
 
 a {
   text-decoration: none;
   color: #636a7a;
-
 }
 
 .nav-link {
   color: #636a7a;
   font-size: 3em;
   text-decoration: none;
-  padding-right: 30px;
+  margin-left: 0.3em;
 }
 
 .nav-link:hover {
@@ -53,12 +55,12 @@ a {
 }
 
 .statement p {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .badge {
   background-color: #f5936f!important;
-  box-shadow: 2px 2px var(--edward);
+  box-shadow: 1px 1px var(--edward);
   font-size: 2em;
 }
 
@@ -86,10 +88,15 @@ a {
   border: none;
 }
 
-.list-group-item :hover {
+.list-group-item h2:hover {
   color: var(--sandyBrown);
   text-shadow: 2px 2px var(--edward);
 
+}
+
+.list-group-item h3:hover {
+  color: #636a7a;
+  text-shadow: 2px 2px var(--edward);
 }
 
 #images {
@@ -109,8 +116,7 @@ a {
 }
 
 .linkBtn:hover,
-  .gitBtn:hover,
-  .gitHubWork:hover {
+  .gitBtn:hover {
   color: var(--canary);
   text-shadow: 2px 2px var(--edward);
 

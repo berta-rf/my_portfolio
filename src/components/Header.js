@@ -7,16 +7,14 @@ const Header = () => {
 
     return(<>
     <Container>
-      <Navbar collapseOnSelect expand="md" className="my-5">
-            <div>
-                <h1>/berta-rf</h1>
-            </div>
+      <Navbar collapseOnSelect expand="lg" className="my-5">
+          <Navbar.Brand id="brand" href="/">/berta-rf</Navbar.Brand>
           <NavbarToggle aria-controls="responsive-navbar-nav" />
           <NavbarCollapse id="responsive-navbar-nav" >
-            <Nav>
-                <Nav.Link className="nav-link m-4" href="/">Home</Nav.Link>
-                <Nav.Link className="nav-link m-4" href="/projects">Projects</Nav.Link>
-                <Nav.Link className="nav-link m-4" href="/contact">Contact</Nav.Link>
+            <Nav className="ms-auto">
+                <Nav.Link className="nav-link" href="/">Home</Nav.Link>
+                <Nav.Link className="nav-link" href="/projects">Projects</Nav.Link>
+                <Nav.Link className="nav-link" href="/contact">Contact</Nav.Link>
             </Nav>
           </NavbarCollapse>
         </Navbar>

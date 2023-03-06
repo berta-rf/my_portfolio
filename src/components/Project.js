@@ -1,7 +1,6 @@
 import React from "react";
 import { ListGroupItem } from "react-bootstrap";
 
-// import Card from 'react-bootstrap/Card';
 
 export function Project(props) {
     const { 
@@ -9,7 +8,8 @@ export function Project(props) {
         projectIndex,
         githubLink,
         title,
-        deployedURL
+        deployedURL,
+        technologies
     } = props;
 
     return (
@@ -18,14 +18,13 @@ export function Project(props) {
                 onMouseEnter={() => setCurrentProjectIndex(projectIndex)}
                 onMouseLeave={() => setCurrentProjectIndex(0)}
             >
-                <ListGroupItem className="d-flex my-3">
+                <ListGroupItem className="my-3">
                     <a href={deployedURL}>
                         <h2>{title}</h2>
                     </a>
-
-                    <a href={githubLink} className="my-3">
-                        <i className="gitHubWork mx-4 fa-brands fa-github fa-2xl"></i>
-                    </a>
+                    <a href={githubLink}>
+                        <h3>{technologies}</h3>
+                    </a>   
                 </ListGroupItem>
             </div>
         </>
