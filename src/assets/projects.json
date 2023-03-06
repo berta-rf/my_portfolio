@@ -5,7 +5,7 @@
         "image": "https://raw.githubusercontent.com/berta-rf/forecast-dashboard/main/assets/images/screencapture-forecast-dashboard.png",
         "githubLink": "https://github.com/berta-rf/forecast-dashboard",
         "deployedURL": "https://berta-rf.github.io/forecast-dashboard/",
-        "technologies": "JavaScript/ OpenWeather API/ jQuery/ Luxon/ HTML/ CSS/ Bootstrap"
+        "technologies": "JavaScript · OpenWeather API · jQuery · Luxon · HTML · CSS · Bootstrap"
     },
     {
         "key": 2,
@@ -13,7 +13,7 @@
         "image": "https://github.com/chinapicke/-broke-but-cultured/raw/main/assets/images/workingApp.gif",
         "githubLink": "https://github.com/berta-rf/broke-but-cultured",
         "deployedURL": "https://chinapicke.github.io/-broke-but-cultured/",
-        "technologies": "JavaScript/ Exchange Rate API/ REST Countries API/ WikiVoyage API/ HTML/ CSS/ Bootstrap"
+        "technologies": "JavaScript · Exchange Rate API · REST Countries API · WikiVoyage API · HTML · CSS · Bootstrap"
     },
     {
         "key": 3,
@@ -21,7 +21,7 @@
         "image": "https://raw.githubusercontent.com/berta-rf/news-homepage-main/main/assets/images/screencapture-news-homepage-main.png",
         "githubLink": "https://github.com/berta-rf/news-homepage-main",
         "deployedURL": "https://berta-rf.github.io/news-homepage-main/",
-        "technologies": "SCSS/ HTML/ Bootstrap/ JavaScript"
+        "technologies": "SCSS · HTML · Bootstrap · JavaScript"
     
     },
     {
@@ -30,7 +30,7 @@
         "image": "https://raw.githubusercontent.com/berta-rf/timed-Code-Quiz/main/assets/images/applicationScreenshots.gif",
         "githubLink": "https://github.com/berta-rf/timed-Code-Quiz",
         "deployedURL": "https://berta-rf.github.io/timed-Code-Quiz/",
-        "technologies": "JavaScript/ HTML/ CSS/ Bootstrap"
+        "technologies": "JavaScript · HTML · CSS · Bootstrap"
     },
     {
 
@@ -39,7 +39,7 @@
         "image": "https://raw.githubusercontent.com/berta-rf/order-summary-component-main/main/images/screenshot.jpg.png",
         "githubLink": "https://github.com/berta-rf/order-summary-component-main",
         "deployedURL": "https://berta-rf.github.io/order-summary-component-main/",
-        "technologies": "SCSS/ HTML/ Bootstrap"
+        "technologies": "SCSS · HTML · Bootstrap"
     },
     {
 
@@ -48,7 +48,7 @@
         "image": "https://raw.githubusercontent.com/berta-rf/daily-planner-app/main/assets/images/screencapture.png",
         "githubLink": "https://github.com/berta-rf/daily-planner-app",
         "deployedURL": "https://berta-rf.github.io/daily-planner-app/",
-        "technologies": "JavaScript/ jQuery/ Luxon/ HTML/ CSS/ Bootstrap"
+        "technologies": "JavaScript · jQuery · Luxon · HTML · CSS · Bootstrap"
     },
     {
 
@@ -57,7 +57,7 @@
         "image": "https://raw.githubusercontent.com/berta-rf/team-profile-generator/main/assets/images/webScreenshot.png",
         "githubLink": "https://github.com/berta-rf/team-profile-generator",
         "deployedURL": "https://github.com/berta-rf/team-profile-generator",
-        "technologies": "Inquirer.js/ Node.js/ Jest/ JavaScript/ HTML"
+        "technologies": "Inquirer.js · Node.js · Jest · JavaScript · HTML"
     }
 
 

@@ -7,3 +7,5 @@ React Portfolio
 
 [How to Add a Netlify Form to a React App](https://www.freecodecamp.org/news/how-to-add-a-netlify-form-to-a-react-app/)
 
+[Khroma Color palette generator](https://www.khroma.co/generator)
+

@@ -21,7 +21,7 @@ export function ProjectGallery() {
                 <ProjectImg deployedURL={currentProject.deployedURL} image={currentProject.image}></ProjectImg>
             </Col>
 
-            <Col xs={12} md={6} className="text-right">
+            <Col xs={12} md={6} className="text-end">
                 <ListGroup className="ul">
                     {projects.map( (project, index) => <Project
                     key={project.key}
