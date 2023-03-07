@@ -6,7 +6,7 @@ import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 const Header = () => {
 
     return(<>
-    <Container className="wrapper">
+    <Container className="headerNav">
       <Navbar collapseOnSelect expand="lg" className="my-5">
           <Navbar.Brand id="brand" href="/">/berta-rf</Navbar.Brand>
           <NavbarToggle aria-controls="responsive-navbar-nav" />

@@ -39,6 +39,10 @@ a {
   color: #636a7a;
 }
 
+.headerNav {
+  position: sticky;
+}
+
 .nav-link {
   color: #636a7a;
   font-size: 3em;
@@ -97,7 +101,7 @@ p {
 }
 
 .list-group-item h2:hover {
-  color: var(--sandyBrown);
+  color: var(--sandyBrown)!important;
   text-shadow: 2px 2px var(--edward);
 
 }
@@ -108,10 +112,13 @@ p {
 }
 
 #images {
-  border-radius: 8%;
+  clip-path: circle();
+  position: sticky;
+  top: 30%;
 }
 
 .wrap {
+  height: 100%;
   padding: 10%;
   filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
@@ -149,6 +156,11 @@ p {
 
   #url::before {
     content: "🔗";
+  }
+
+  .brand {
+    padding: 1%;
+
   }
 
   #tech {

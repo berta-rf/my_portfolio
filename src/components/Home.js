@@ -19,7 +19,7 @@ const Home = () => {
                         <p>Former Social Worker, and now also an ex-Sommelier, although you won't take the wine geek out of me... </p>
                         <p>After completing Google’s Project Management course, I gained an understanding of the life cycle of tech
                         projects and learned about Agile methodologies, and that just left me wanting more so I enrolled in edX Frontend Bootcamp 💪!</p>
-                        <p>I merge the highly-undervalued interpersonal skills and resilience of the hospitality breed, with the Somm's passion for learning and the technical skills of the average noob, but exceptional energy! Ready to dive into a new industry.</p>
+                        {/* <p>I merge the highly-undervalued interpersonal skills and resilience of the hospitality breed, with the Somm's passion for learning and the technical skills of the average noob, but exceptional energy! Ready to dive into a new industry.</p> */}
                     </div>
                 </Col>
                 <Col className="my-5 mx-auto portrait" xs={12} md={4} xl={4}>
