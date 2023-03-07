@@ -13,6 +13,10 @@ The Contact section has links to all my socials and ways to contact me, and a co
 
 </br>
 
+[My Portfolio](https://berta-rf-portfolio.netlify.app/)
+
+</br>
+
 
 <img src="./src/assets/images/screenshot.png"  width="45%" height="15%">
 
