@@ -9,3 +9,5 @@ React Portfolio
 
 [Khroma Color palette generator](https://www.khroma.co/generator)
 
+[Haikei SVG generator](https://app.haikei.app/)
+

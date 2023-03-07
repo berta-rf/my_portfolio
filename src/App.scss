@@ -2,30 +2,34 @@
 
 :root {
     --shuttleGray: #636a7a;
+    --darkGray: #636a7a;
     --edward: #a9b9ac;
     --edward-transparent: #a9b9ac82;
     --canary: #dffe6d;
     --sandyBrown: #f5936f;
 }
 
-body {
+* {
   font-family: 'Titillium Web', sans-serif;
-  background-color:#f5936f56;
-  background-image: url(./assets/images/bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+body {
+  background: url(./assets/images/blob-scatter-haikei.png) repeat;
+  background-color: #f5936f47;
 }
 
 #brand {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: var(--canary);
-  font-size: calc(5rem + 2.5vw);
-  text-shadow: 1px 3px var(--edward);
+  font-size: calc(5rem + 2vw);
+  font-weight: bold;
+  text-shadow: 2px 5px var(--shuttleGray);
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: calc(2.5em + 1vw);
   font-weight: bold;
+  color: var(--darkGray)!important;
 }
 
 a {
@@ -52,8 +56,12 @@ a {
   font-size: 1.5rem;
 }
 
-.statement p {
+p {
   font-size: 2em;
+}
+
+.firstLine {
+  font-size: 2.5em!important;
 }
 
 .badge {
@@ -122,4 +130,30 @@ a {
 p {
   color: #636a7a;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 768px){
+
+  #images {
+    display: none;
+  }
+
+  .portrait {
+    width: 50%;
+  }
+
+  .badges {
+    display: none;
+  }
+
+  #url::before {
+    content: "🔗";
+  }
+
+  #tech {
+    text-decoration: underline;
+  }
+
+}
+
+
   

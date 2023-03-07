@@ -5,7 +5,7 @@ import { Container, ListGroup } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export function ProjectGallery() {
+function ProjectGallery() {
 
     const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
 
@@ -13,7 +13,7 @@ export function ProjectGallery() {
 
    return (<>
     
-    <Container className="projects">
+    <Container className="projects wrapper">
 
         <Row className="my-5">
 
@@ -42,3 +42,5 @@ export function ProjectGallery() {
     </>);   
 
 }
+
+export default ProjectGallery;

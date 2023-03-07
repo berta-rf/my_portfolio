@@ -20,9 +20,9 @@ export function Project(props) {
             >
                 <ListGroupItem className="my-3">
                     <a href={deployedURL}>
-                        <h2>{title}</h2>
+                        <h2 id="url">{title}</h2>
                     </a>
-                    <a href={githubLink}>
+                    <a id="tech" href={githubLink}>
                         <h3>{technologies}</h3>
                     </a>   
                 </ListGroupItem>
