@@ -14,7 +14,9 @@
 }
 
 body {
-  background: url(./assets/images/blob-scatter-haikei.png) repeat;
+  background: url(./assets/images/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #f5936f47;
 }
 
