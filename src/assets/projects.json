@@ -1,6 +1,14 @@
 [
     {
         "key": 1,
+        "title": "gutenBooks",
+        "image": "https://raw.githubusercontent.com/berta-rf/gutenBooks/main/src/assets/images/gutenBooks.gif",
+        "githubLink": "https://github.com/berta-rf/gutenBooks",
+        "deployedURL": "https://gutenbooksweb.netlify.app/",
+        "technologies": "React · react-reader (epubJS) · Gutendex API · Netlify · AWS Lambda · MUI"
+    },
+    {
+        "key": 2,
         "title": "Weather Forecast Dashboard",
         "image": "https://raw.githubusercontent.com/berta-rf/forecast-dashboard/main/assets/images/screencapture-forecast-dashboard.png",
         "githubLink": "https://github.com/berta-rf/forecast-dashboard",
@@ -8,7 +16,7 @@
         "technologies": "JavaScript · OpenWeather API · jQuery · Luxon · HTML · CSS · Bootstrap"
     },
     {
-        "key": 2,
+        "key": 3,
         "title": "Broke but Cultured",
         "image": "https://github.com/chinapicke/-broke-but-cultured/raw/main/assets/images/workingApp.gif",
         "githubLink": "https://github.com/berta-rf/broke-but-cultured",
@@ -16,7 +24,7 @@
         "technologies": "JavaScript · Exchange Rate API · REST Countries API · WikiVoyage API · HTML · CSS · Bootstrap"
     },
     {
-        "key": 3,
+        "key": 4,
         "title": "News Homepage",
         "image": "https://raw.githubusercontent.com/berta-rf/news-homepage-main/main/assets/images/screencapture-news-homepage-main.png",
         "githubLink": "https://github.com/berta-rf/news-homepage-main",
@@ -25,7 +33,7 @@
     
     },
     {
-        "key": 4,
+        "key": 5,
         "title": "Code Quiz",
         "image": "https://raw.githubusercontent.com/berta-rf/timed-Code-Quiz/main/assets/images/applicationScreenshots.gif",
         "githubLink": "https://github.com/berta-rf/timed-Code-Quiz",
@@ -34,7 +42,7 @@
     },
     {
 
-        "key": 5,
+        "key": 6,
         "title": "Order Summary Component",
         "image": "https://raw.githubusercontent.com/berta-rf/order-summary-component-main/main/images/screenshot.jpg.png",
         "githubLink": "https://github.com/berta-rf/order-summary-component-main",
@@ -43,16 +51,7 @@
     },
     {
 
-        "key": 6,
-        "title": "Work Day Planner",
-        "image": "https://raw.githubusercontent.com/berta-rf/daily-planner-app/main/assets/images/screencapture.png",
-        "githubLink": "https://github.com/berta-rf/daily-planner-app",
-        "deployedURL": "https://berta-rf.github.io/daily-planner-app/",
-        "technologies": "JavaScript · jQuery · Luxon · HTML · CSS · Bootstrap"
-    },
-    {
-
-        "key": 7,
+        "key": 8,
         "title": "Team Profile Generator (CLI)",
         "image": "https://raw.githubusercontent.com/berta-rf/team-profile-generator/main/assets/images/webScreenshot.png",
         "githubLink": "https://github.com/berta-rf/team-profile-generator",
