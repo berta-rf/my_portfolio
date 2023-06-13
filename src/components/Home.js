@@ -16,7 +16,7 @@ const Home = () => {
                 <Col  className="my-5" xs={12} md={8} xl={8}>
                     <div className="statement text-justify">
                         <p className="firstLine"><i class="fa-solid fa-terminal fa-xl"></i> Hi there 👋<br></br>my name is Berta and I'm a junior <b>Frontend Developer</b> based in London!</p>
-                        <p>Currently expanding my horizons with Code First Girls CFGDegree in Software.</p>
+                        <p>Currently expanding my horizons with <b>Code First Girls CFGDegree in Software</b>.</p>
                         <p>Former Social Worker, and now also an ex-Sommelier, although you won't take the wine geek out of me... </p>
                         <p>After completing Google’s Project Management course, I gained an understanding of the life cycle of tech
                         projects and learned about Agile methodologies, and that just left me wanting more so I enrolled in edX Frontend Bootcamp and completed it with flying colours 💪!</p>
