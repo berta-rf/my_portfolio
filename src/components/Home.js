@@ -15,11 +15,12 @@ const Home = () => {
             <Row>           
                 <Col  className="my-5" xs={12} md={8} xl={8}>
                     <div className="statement text-justify">
-                        <p className="firstLine"><i class="fa-solid fa-terminal fa-xl"></i> Hi there 👋<br></br>my name is Berta and I'm a junior <b>Frontend Developer</b> based in London!</p> 
+                        <p className="firstLine"><i class="fa-solid fa-terminal fa-xl"></i> Hi there 👋<br></br>my name is Berta and I'm a junior <b>Frontend Developer</b> based in London!</p>
+                        <p>Currently expanding my horizons with Code First Girls CFGDegree in Software.</p>
                         <p>Former Social Worker, and now also an ex-Sommelier, although you won't take the wine geek out of me... </p>
                         <p>After completing Google’s Project Management course, I gained an understanding of the life cycle of tech
                         projects and learned about Agile methodologies, and that just left me wanting more so I enrolled in edX Frontend Bootcamp and completed it with flying colours 💪!</p>
-                        <p>In the 16-week program,  I gained skills in HTML, SCSS, Javascript, jQuery, React, ES6, and Nodejs. I’ve also learned to work with Git, in GitHub and GitLab, worked with APIs and fetch/axios, and dipped my toes in UX design and deployment of modern web applications with Netlify. </p>
+                        <p>In the 16-week program, I gained skills in HTML, SCSS, Javascript, jQuery, React, ES6, and Nodejs. I’ve also learned to work with Git, in GitHub and GitLab, worked with APIs and fetch/axios, and dipped my toes in UX design and deployment of modern web applications with Netlify. </p>
                     </div>
                 </Col>
                 <Col className="my-5 mx-auto portrait" xs={12} md={4} xl={4}>
