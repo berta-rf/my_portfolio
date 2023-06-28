@@ -7,7 +7,7 @@ import portrait from '../assets/images/portrait.png';
 
 const Home = () => {
 
-    const skills = ['Git / GitHub', 'HTML', 'SCSS', 'JavaScript', 'Bootstrap', 'APIs', 'React', 'JSON', 'JQuery', 'Node.js', 'Python', 'Agile Methodologies']
+    const skills = ['Git / GitHub', 'HTML', 'SCSS', 'JavaScript', 'Python', 'MySQL', 'APIs', 'React', 'JQuery', 'Flask', 'Node.js', 'Agile Methodologies', 'Bootstrap', 'MUI']
 
     return(<>
         
